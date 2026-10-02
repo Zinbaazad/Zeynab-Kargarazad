@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zeinab Kargarazad — Product Manager focused on fintech, cyclist, nature lover, and coffee enthusiast." />
+  <title>Zeinab — My Life Is a Map</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Zeinab home">
+        <span class="brand-dot"></span>
+        ZEINAB / 01
+      </a>
+      <nav>
+        <a href="#work">work</a>
+        <a href="#routes">routes</a>
+        <a href="#about">about</a>
+        <a href="#connect">say hi</a>
+      </nav>
+      <a class="resume-link" href="resume.pdf" download>resume ↗</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span>●</span> CURRENTLY: BUILDING FINTECH PRODUCTS</p>
+          <h1>MY LIFE<br /><em>IS A MAP.</em></h1>
+          <p class="hero-lede">
+            I’m Zeinab — a Product Manager who likes turning messy ideas into useful products,
+            then leaving the laptop to find a road, a mountain, or a good cup of coffee.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">explore my work</a>
+            <a class="button ghost" href="#routes">see my routes ↓</a>
+          </div>
+          <div class="mini-stats">
+            <div><strong>PM</strong><span>fintech</span></div>
+            <div><strong>FRI</strong><span>ride day</span></div>
+            <div><strong>∞</strong><span>coffee</span></div>
+          </div>
+        </div>
+
+        <div class="hero-map" aria-label="Interactive map of Zeinab's life">
+          <div class="map-grid"></div>
+          <svg class="route route-a" viewBox="0 0 600 520" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M50 420 C150 360, 110 250, 235 300 S340 450, 405 310 S480 100, 555 75" />
+          </svg>
+          <svg class="route route-b" viewBox="0 0 600 520" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M75 85 C180 130, 210 220, 315 175 S420 90, 520 190 S510 380, 430 455" />
+          </svg>
+
+          <button class="map-pin pin-work active" data-panel="work-panel" aria-label="Work">
+            <span>01</span><b>WORK</b>
+          </button>
+          <button class="map-pin pin-ride" data-panel="ride-panel" aria-label="Rides">
+            <span>02</span><b>RIDES</b>
+          </button>
+          <button class="map-pin pin-nature" data-panel="nature-panel" aria-label="Nature">
+            <span>03</span><b>NATURE</b>
+          </button>
+          <button class="map-pin pin-coffee" data-panel="coffee-panel" aria-label="Coffee">
+            <span>04</span><b>COFFEE</b>
+          </button>
+
+          <div class="map-label label-a">FRIDAY<br />LOOP</div>
+          <div class="map-label label-b">NEXT<br />ADVENTURE</div>
+          <div class="map-compass">N<br /><span>+</span></div>
+
+          <div class="map-card" id="work-panel">
+            <div class="card-top"><span>01 / WORK</span><span>ACTIVE</span></div>
+            <h3>Building things<br />that people use.</h3>
+            <p>Product management · fintech · discovery · delivery</p>
+          </div>
+          <div class="map-card hidden" id="ride-panel">
+            <div class="card-top"><span>02 / RIDES</span><span>FRIDAY</span></div>
+            <h3>Two wheels,<br />good people.</h3>
+            <p>I ride a lot — especially on Fridays, preferably with a group.</p>
+          </div>
+          <div class="map-card hidden" id="nature-panel">
+            <div class="card-top"><span>03 / NATURE</span><span>OUTSIDE</span></div>
+            <h3>Go where<br />the map gets quiet.</h3>
+            <p>Mountains, trails, fresh air and whatever route looks interesting.</p>
+          </div>
+          <div class="map-card hidden" id="coffee-panel">
+            <div class="card-top"><span>04 / COFFEE</span><span>ALWAYS</span></div>
+            <h3>Probably holding<br />a coffee right now.</h3>
+            <p>Somewhere between a product meeting and the next adventure.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Interests">
+        <div>PRODUCT / FINTECH / CYCLING / CLIMBING / NATURE / COFFEE / PEOPLE / CURIOSITY /</div>
+      </section>
+
+      <section class="intro section" id="about">
+        <div class="section-number">00</div>
+        <div>
+          <p class="kicker">A LITTLE ABOUT ME</p>
+          <h2>I like work that<br /><span>moves.</span></h2>
+        </div>
+        <div class="intro-text">
+          <p>
+            I’m a Product Manager focused on fintech. I genuinely enjoy the work:
+            figuring out what matters, shaping ideas into features, working with design
+            and engineering, and getting things shipped.
+          </p>
+          <p>
+            Outside work, I’m usually on a bike, somewhere in nature, planning a climb,
+            or looking for coffee. I like doing things with people, so if you’re building
+            something interesting or planning a Friday ride, say hi.
+          </p>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">01 / THE WORK MAP</p>
+            <h2>What I do</h2>
+          </div>
+          <span class="coordinates">35.7219° N / 51.3347° E</span>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card featured">
+            <span class="number">01</span>
+            <p>PRODUCT MANAGEMENT</p>
+            <h3>From “what if?”<br />to something real.</h3>
+            <div class="card-line"></div>
+            <ul>
+              <li>Discovery & scoping</li>
+              <li>User stories & product flows</li>
+              <li>Sprint planning & prioritization</li>
+              <li>Cross-functional delivery</li>
+              <li>Usability testing & QA</li>
+            </ul>
+          </article>
+
+          <article class="work-card">
+            <span class="number">02</span>
+            <p>FINTECH</p>
+            <h3>Financial products,<br />without the jargon.</h3>
+            <div class="card-line"></div>
+            <p class="body-copy">Working across product, business, design, engineering and stakeholders to turn complex financial workflows into usable experiences.</p>
+          </article>
+
+          <article class="work-card image-card">
+            <img src="assets/portrait-night.jpg" alt="Zeinab outdoors at night" />
+            <div class="image-caption">PRODUCT / PEOPLE / PROGRESS</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="routes section" id="routes">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">02 / OUT OF OFFICE</p>
+            <h2>My other routes</h2>
+          </div>
+          <span class="coordinates">NO FIXED DESTINATION</span>
+        </div>
+
+        <div class="route-grid">
+          <article class="route-card ride-card">
+            <div class="route-image"><img src="assets/ride.jpg" alt="Zeinab with a bicycle" /></div>
+            <div class="route-info">
+              <div class="route-meta"><span>BIKE / 01</span><span>FRIDAY</span></div>
+              <h3>Ride with me?</h3>
+              <p>Friday rides are my favorite. I’d rather ride with people than ride alone.</p>
+              <a href="#connect">join a ride →</a>
+            </div>
+          </article>
+
+          <article class="route-card nature-card">
+            <div class="route-image"><img src="assets/nature.jpg" alt="Mountain landscape" /></div>
+            <div class="route-info">
+              <div class="route-meta"><span>NATURE / 02</span><span>OUTSIDE</span></div>
+              <h3>Find the high ground.</h3>
+              <p>Mountains, trails, climbing and anywhere the view makes the walk worth it.</p>
+              <a href="#connect">plan something →</a>
+            </div>
+          </article>
+
+          <article class="route-card coffee-card">
+            <div class="coffee-visual">
+              <span class="steam steam-1"></span><span class="steam steam-2"></span>
+              <div class="cup">☕</div>
+              <span class="coffee-note">ESSENTIAL<br />EQUIPMENT</span>
+            </div>
+            <div class="route-info">
+              <div class="route-meta"><span>COFFEE / 03</span><span>24/7</span></div>
+              <h3>Usually in my hand.</h3>
+              <p>If we meet and I’m not holding a cup, something has probably gone wrong.</p>
+              <a href="#connect">coffee?</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery section">
+        <div class="gallery-intro">
+          <p class="kicker">03 / FIELD NOTES</p>
+          <h2>Somewhere<br /><em>along the way.</em></h2>
+          <p>Small moments from the route. No particular order.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="photo tall"><img src="assets/portrait-light.jpg" alt="Zeinab portrait" /><figcaption>01 / ME, SOMEWHERE IN THE CITY</figcaption></figure>
+          <figure class="photo wide"><img src="assets/coffee.jpg" alt="Zeinab holding coffee" /><figcaption>02 / FUEL</figcaption></figure>
+          <figure class="photo"><img src="assets/nature.jpg" alt="Mountain and mist" /><figcaption>03 / OUTSIDE</figcaption></figure>
+          <figure class="photo"><img src="assets/portrait-night.jpg" alt="Zeinab at night" /><figcaption>04 / NIGHT ROUTE</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="connect section" id="connect">
+        <div class="connect-map">
+          <svg viewBox="0 0 700 430" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M20 350 C120 280, 95 115, 220 145 S320 350, 420 255 S520 75, 680 90" />
+            <path d="M80 60 C180 90, 245 50, 310 130 S430 185, 470 110 S600 160, 640 350" />
+          </svg>
+          <span class="map-end start">YOU ARE HERE</span>
+          <span class="map-end end">LET'S GO</span>
+          <span class="tiny-pin p1">✦</span><span class="tiny-pin p2">✦</span><span class="tiny-pin p3">✦</span>
+        </div>
+        <div class="connect-copy">
+          <p class="kicker">04 / SAY HI</p>
+          <h2>Want to build<br /><em>or ride?</em></h2>
+          <p>
+            I’m always happy to meet people working on interesting products,
+            exchange ideas, grab a coffee, or find a good route for Friday.
+          </p>
+          <div class="contact-links">
+            <a class="button primary" href="mailto:zeinab.kargarazad@gmail.com">email me ↗</a>
+            <a class="button ghost" href="resume.pdf" download>download resume ↓</a>
+          </div>
+          <div class="contact-note">OPEN TO: PRODUCT / FINTECH / RIDES / COFFEE / GOOD CONVERSATIONS</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>ZEINAB / MY LIFE IS A MAP</span>
+      <span>BUILT WITH CURIOSITY + COFFEE</span>
+      <span>© 2026</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
